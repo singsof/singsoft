@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Krub-Regular;
+    src: url(../font/Krub/Krub-Regular.ttf);
+}
+
+@font-face {
+    font-family: Krub-Medium;
+    src: url(../font/Krub/Krub-Medium.ttf);
+}
+
+body {
+    /* font-family: Krub-Regular, sans-serif; */
+    font-size: 1rem;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+
+/* .tag-p-max {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+} */
+
+.tag-p-max {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+a:hover>.tag-p-max {
+    cursor: pointer;
+    text-decoration: none;
+}

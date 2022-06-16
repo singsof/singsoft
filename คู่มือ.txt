@@ -1,0 +1,2 @@
+npm install -g sass
+sass --watch input.scss output.css   OR sass --watch app/sass:public/stylesheets
